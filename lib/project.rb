@@ -10,4 +10,6 @@ class Project
     @@new << title
   end
 
+  def add_backer(name)
+
 end
