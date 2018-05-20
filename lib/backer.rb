@@ -1,6 +1,6 @@
 class Backer
 
-  attr_reader :name, :backed_projects, :backers
+  attr_reader :name, :backed_projects, :add_backer
 
   @@new = []
 
