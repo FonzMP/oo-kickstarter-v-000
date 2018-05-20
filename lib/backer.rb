@@ -1,6 +1,6 @@
 class Backer
 
-  attr_reader :name, :backed_projcts
+  attr_reader :name, :backed_projects
 
   @@new = []
 
@@ -15,8 +15,8 @@ class Backer
     project_transfer = Project.new(project_name)
   end
 
-  def backed_projects
-    @backed_projects
-  end
+  # def backed_projects
+  #   @backed_projects
+  # end
 
 end
