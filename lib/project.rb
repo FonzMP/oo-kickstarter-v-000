@@ -15,8 +15,8 @@ class Project
     @backers << name
   end
 
-  def backers
-    @backers
-  end
+  # def backers
+  #   @backers
+  # end
 
 end
