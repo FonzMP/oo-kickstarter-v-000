@@ -3,7 +3,6 @@ class Backer
   attr_reader :name
 
   @@new = []
-  awesome_project = Project.new("This is an Awesome Project")
 
   def initialize(name)
     @name = name
@@ -12,7 +11,7 @@ class Backer
   end
 
   def back_project(Project)
-    @backed_projects << Project.new
+    @backed_projects << project_name
   end
 
 end
