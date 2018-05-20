@@ -14,7 +14,7 @@ class Project
   def add_backer(name)
     @backers << name
     name.back_project(self) unless name.backed_projects.include? == self
-    @backers.each do item |project|
+    @backers.each do |backer|
       project.add_backer(self) unless project.backers.include?(self)
     end
   end
