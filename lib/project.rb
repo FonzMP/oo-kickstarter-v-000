@@ -15,7 +15,7 @@ class Project
     @backers << name
     name.back_project(self) unless name.backed_projects.include? == self
     @backers.each do |backer|
-      backer.back_project(self) unless backer.backers.include?(self)
+      backer.back_project(self) unless backer.backed_projects.include?(self)
     end
   end
 
