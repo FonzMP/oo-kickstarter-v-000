@@ -15,8 +15,4 @@ class Backer
     project_transfer = Project.new(project_name)
   end
 
-  # def backed_projects
-  #   @backed_projects
-  # end
-
 end
